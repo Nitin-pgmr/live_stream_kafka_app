@@ -21,6 +21,7 @@ The app uses Swagger API to provide a front end that services users input, csv f
 #### Procedure
 start zookeeper <br/>
 start kafka <br/>
+modify the host for kafka and zookeeper since the Dockertool box was used
 
 pip install -r requirements.txt <br/>
 run producer on a topic <br/>
