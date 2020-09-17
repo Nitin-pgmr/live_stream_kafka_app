@@ -14,6 +14,7 @@ The app uses Swagger API to provide a front end that services users input, csv f
 &nbsp; &nbsp;|template --default templates<br/>
 &nbsp; &nbsp;&nbsp; &nbsp;|index.html --welcome page <br/>
 |Dockerfile  -- spin up a docker<br/>
+|Producer.py
 |Finalized_model --pickle file <br/>
 |requirements.txt <br/>
 |testinput_file.csv --sample inputs fed to the app during dev <br/>
