@@ -15,7 +15,7 @@ app = Flask(__name__)
 Swagger(app)
 
 # unpickle the trained Minibatch kmeans file
-pickle_in = open('../finalized_model', 'rb')
+pickle_in = open('/finalized_model', 'rb')
 classifier = pickle.load(pickle_in)
 
 
